@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8589697640257694124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1953055008359890441, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890443, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 57300574af2d94e2cb957879b044e3c7, type: 3}
+    - target: {fileID: 1953055008359890446, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_Name
+      value: BrickBlock_Underground
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: hitBlock
+      value: 
+      objectReference: {fileID: 21300000, guid: 58286fcc5b10240e6b21bc443fa41ad8, type: 3}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: numCoins
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: emptyBlock
+      value: 
+      objectReference: {fileID: 21300000, guid: eed3eaeb19f5a46808a0900b905e598f, type: 3}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: defaultBlock
+      value: 
+      objectReference: {fileID: 21300000, guid: 57300574af2d94e2cb957879b044e3c7, type: 3}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: hitEmptyBlock
+      value: 
+      objectReference: {fileID: 21300000, guid: 838d58f857de44e359ee9a11ff959d5f, type: 3}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: brickPiecePrefab
+      value: 
+      objectReference: {fileID: 4769305808833185362, guid: cfd6f57b8d80e40dabb39bb9fd7dc429, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}

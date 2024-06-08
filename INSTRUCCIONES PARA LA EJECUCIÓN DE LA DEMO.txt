@@ -1,0 +1,1 @@
+Para ejecutar la DEMO del juego, debe ir a la carpeta "Builds" -> Aquí, seleccionar la versión con mayor número, ya que es la más actualizada, y dentro buscar el archivo DEMO.exe

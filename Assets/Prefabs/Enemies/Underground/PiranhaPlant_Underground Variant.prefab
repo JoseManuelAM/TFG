@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3485059865850756724
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 967953311947091973, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_Name
+      value: PiranhaPlant_Underground
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953311947091975, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953312392118698, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_Name
+      value: Plant_Underground
+      objectReference: {fileID: 0}
+    - target: {fileID: 967953312392118701, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -609108710, guid: 026d1b66fabd6479fb0fa4ed73a8b513, type: 3}
+    m_RemovedComponents:
+    - {fileID: 967953312392118700, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+--- !u!1 &4410069754460159966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 967953312392118698, guid: 1b106c06f300a41b2b9bde918c8be69b, type: 3}
+  m_PrefabInstance: {fileID: 3485059865850756724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1892495114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410069754460159966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7047707f6672400c8a68f7589aa3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -609108710, guid: 026d1b66fabd6479fb0fa4ed73a8b513, type: 3}
+  - {fileID: 2080451539, guid: 026d1b66fabd6479fb0fa4ed73a8b513, type: 3}
+  frameTime: 0.2
+  stop: 0
+  loop: 1

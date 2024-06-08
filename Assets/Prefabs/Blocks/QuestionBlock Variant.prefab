@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1726363956592439045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1953055008359890440, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890440, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890442, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890443, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 784271434, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+    - target: {fileID: 1953055008359890446, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: m_Name
+      value: QuestionBlock Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: hitBlock
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e84cf8ba9edf4561921c5138b9f9046, type: 3}
+    - target: {fileID: 1953055008359890453, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+      propertyPath: numCoins
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+--- !u!1 &932214274291159307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1953055008359890446, guid: 281b880db560d4a51b61c92ac8b0c3c5, type: 3}
+  m_PrefabInstance: {fileID: 1726363956592439045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924771729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932214274291159307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7047707f6672400c8a68f7589aa3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 784271434, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+  - {fileID: -939864411, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+  - {fileID: -926618728, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+  - {fileID: -939864411, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+  - {fileID: 784271434, guid: 7cab6df6a6ada42d2949ba0a33b8dbe2, type: 3}
+  frameTime: 0.1
+  stop: 0
+  loop: 1
