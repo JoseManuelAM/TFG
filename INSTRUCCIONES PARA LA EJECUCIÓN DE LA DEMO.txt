@@ -1,1 +1,9 @@
 Para ejecutar la DEMO del juego, debe ir a la carpeta "Builds" -> Aquí, seleccionar la versión con mayor número, ya que es la más actualizada, y dentro buscar el archivo DEMO.exe
+
+Por último, debe saber que puede manejarse por el menú con las flechas direccionales, o haciendo clic en la opción que quiera con
+el ratón. Además, los controles para jugar son: 
+
+- WASD o las flechas direccionales para mover al personaje.
+- [Barra Espaciadora] para saltar (dependiendo del tiempo que se mantenga pulsada la tecla, el personaje saltará más o menos.
+- [Z] para lanzar proyectiles (sólo podrá lanzar proyectiles con el power-up “Flor de fuego” equipado. Este poder se puede obtener en
+bloques, una vez se ha obtenido el poder “Champiñón”, que vuelve al personaje grande).
